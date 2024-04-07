@@ -1,0 +1,286 @@
+@media (max-width: 950px) {
+  .what-we-do{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+  }
+  .colunm{
+    width: 40%;
+    min-height: 200px;
+  }
+  .landingPage-contant h1{
+    font-size: 55px;
+    font-weight: 550;
+    line-height: 64px;
+  }
+  .card{
+    width: 45%;
+    min-height: 150px;
+  }
+  .row{
+    width: 90%;
+  }
+}
+@media (max-width:760px) {
+    nav{
+        padding: 20px 20px;
+    }
+    nav .mainlogo{
+        width: 120px;
+
+      }
+      nav .facelogo{
+        width: 50px;
+      }
+    .landingPage-contant h1{
+        font-size: 55px;
+        font-weight: 550;
+        line-height: 56px;
+      }
+      .landingPage-contant .dis{
+        color: #393939;
+        font-size: 20px;
+        width: 90%;
+        font-weight: 400;
+      }
+      .landingpageImg-span {
+        display: none;
+      }
+      .errow{
+      display: none;
+      }
+      .landingPage-btn button {
+        padding: 0px 10px;
+      }
+      .landingPage-btn{
+        width: 100%;
+      }
+      .SeePlans a{
+        font-size: 12px;
+      }
+      .CallBtn::after{
+        font-size: 12px;
+      }
+      .CallBtn::before{
+        font-size: 12px;
+      }
+      .bottom-navbar-contant{
+        min-width: 250px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        background-color: #242424;
+      }
+      .showreel {
+        width: 100%;
+        height: 70vw;
+        border-radius: 0%;
+      }
+      .showreel-container{
+        width: 100%;
+        min-height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .project{
+      align-items: start;
+      flex-direction: column-reverse;
+      justify-content:center;
+    }
+    .project p{
+      font-size: 16px;
+      color: #393939;
+    }
+    .SpotifyWeb, .landingPageImg, .todoApp{
+      width: 100%;
+    }
+    .right h1 , .left h1{
+      text-transform: uppercase;
+      font-size: 20px;
+      width: fit-content;
+      padding: 5px 0px;
+      background-color: transparent;
+    }
+    .mainperson{
+      width: 50%;
+      display: flex;
+      justify-content: center;
+    }
+    .mainperson img{
+      width: 100%;
+    }
+    .skills-wrapper{
+      width: 80%;
+      min-height: auto;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content:center;
+    }
+    .skills-page h1{
+      padding: 15px 0px;
+    }
+    .left-skill, .right-skill{
+      width: auto;
+      height: auto;
+      position: relative;
+    }
+    .skills{
+      width: auto;
+      padding: 10px 10px;
+      height: auto;
+    }
+    .skills img{
+      width: 50%;
+    }
+    .anotherSkill {
+      font-size: 20px;
+    }
+    #skills-dis {
+      width: 90%;
+      font-size: 25px;
+    }
+    .what-we-do{
+      flex-wrap: none;
+      align-items: center;
+      justify-content: center;
+      padding: 50px 0px;
+    }
+    .colunm{
+      width: 80%;
+      min-height: auto;
+      border: none;
+      background-color: #d4effa;
+    }
+    .colunm span img{
+      mix-blend-mode: multiply;
+    }
+    .price-plans{
+      border-radius: 40px;
+    }
+    .priceSection{
+      align-items: start;
+      text-align: start;
+    }
+    .basic, .premimum{
+      width: 80%;
+      border-radius: 26px;
+    }
+    .planprice h1{
+      position: relative;
+      top: 0px;
+    }
+    .benefitstop{
+      display: flex;
+      padding: 20px 30px;
+      flex-direction: column;
+      align-items: start;
+    }
+    .benefitstop p{
+      width: 80%;
+      text-align: start;
+    }
+    .person h1{
+      text-align: center;
+    }
+    .About{
+      border-radius: 60px;
+    }
+    .aboutTop{
+      padding: 50px;
+      display: flex;
+      margin: 50px 0px;
+      justify-content: center;
+      align-items: start;
+      flex-direction: column;
+    }
+    .aboutText{
+      width: 90%;
+    }
+    .photoSection{
+      width: auto;
+      display: flex;
+      align-items: start;
+      justify-content: start;
+      margin: 10px 0px;
+    }
+    .photoSection img{
+      width: 50%;
+      top: 0px;
+    }
+}
+@media (max-width:650px) {
+  .planSection{
+    width: 90%;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+  .basic, .premimum{
+    width: 80%;
+  }
+  .card{
+    width: 90%;
+    min-height: 150px;
+  }
+  .photoSection img{
+    width: 70%;
+    top: 0px;
+  }
+}
+@media (max-width: 400px) {
+  .bottom-navbar-contant{
+    display: none;
+  }
+  .photoSection img{
+    width: 100%;
+    top: 0px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+  }
+}
+@media (max-width:330px) {
+  nav .mainlogo{
+   display: none;
+  }
+  .showreel {
+    width: 100%;
+    height: 100vw;
+    border-radius: 0%;
+  }
+  .person img{
+    display: none;
+  }
+  .navbar-wrap{
+    display: none;
+  }
+  .projects-wrapper{
+    width: 100%;
+    min-height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+  }
+  .project{
+    width: 100%;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content:center;
+  }
+  .todoApp, .landingPageImg, .SpotifyWeb{
+    width: 100%;
+  }
+  .mainperson img{
+    width: 100%;
+  }
+  .footerBottom{
+    flex-direction: column;
+  }
+}

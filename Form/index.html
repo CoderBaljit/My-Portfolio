@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1>Let's Work Together</h1>
+        <div>
+            <img src="img/form.png" alt="" class="formImg">
+
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="9a14b100-f329-424f-be5a-20e142a290c5">
+                <p>Enter Your Name</p>
+                <input type="text" placeholder="Jhone Deo" name="UserName" maxlength="30" required>
+                <span> ! please enter name</span>
+
+                <p>Enter Your Email</p>
+                <input type="email" placeholder="info@gmail.com" name="UserEmail" maxlength="999" required>
+                <span> ! please enter gmail</span>
+
+                <p>Enter Mobile Number<span id="opt">optional</span></p>
+                <input type="number" placeholder="+91XXXXXXX99" id="phoneNumber" name="UserPhNumber" required>
+                <span></span>
+
+                <p>Select Meeting date & time</p>
+                <input type="datetime-local" name="MeetDate" id="" required>
+                <span> ! please select</span>
+
+                <p>Select Plan</p>
+                <select name="Plan" id="" required>
+                    <option value="Basic">Basic</option>
+                    <option value="prime">prime</option>
+                </select>
+                <span> ! please select</span>
+
+                <p>Choose meet plateform</p>
+                <select name="MeetPlateform" id="" required>
+                    <option value="">None</option>
+                    <option value="GoogleMeet">Google Meet</option>
+                    <option value="WhatsApp">WhatsApp</option>
+                    <option value="other">Other</option>
+                </select>
+                <span> ! please select</span>
+
+                <input type="submit" value="Submit" id="submitBtn">
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
